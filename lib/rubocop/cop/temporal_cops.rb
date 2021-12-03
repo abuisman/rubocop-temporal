@@ -9,7 +9,7 @@ module Temporal
       PATTERN
     )
 
-    MSG = "Always use travel_to with a block".freeze
+    MSG = "Always use travel_to with a block"
 
     def on_send(node)
       travel_to(node) do

@@ -1,3 +1,12 @@
 Naming/FileName:
  Exclude:
    - lib/rubocop-temporal.rb
+
+AllCops:
+  TargetRubyVersion: 2.5.0
+
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false

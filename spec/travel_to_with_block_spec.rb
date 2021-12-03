@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 require "spec_helper"
 
 RSpec.describe Temporal::TravelToWithBlock do
-  subject(:cop) { Temporal::TravelToWithBlock.new() }
+  subject(:cop) { Temporal::TravelToWithBlock.new }
 
   context "when travel_to is called without a block" do
     it "registers an offense" do

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "rubocop/temporal/version"
 
 module RuboCop
@@ -11,4 +13,3 @@ module RuboCop
     private_constant(:CONFIG_DEFAULT, :PROJECT_ROOT)
   end
 end
-
