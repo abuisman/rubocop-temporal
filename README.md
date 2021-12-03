@@ -89,7 +89,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following to your `.rubocop.yml` config:
+
+```
+require:
+  - rubocop-temporal
+```
+
+If `require:` was already there, just add `  - rubocop-temporal` nested underneath it.
 
 ## Development
 
