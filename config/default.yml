@@ -1,0 +1,2 @@
+Temporal/TravelToWithBlock:
+  Description: "Always use a block when calling travel_to"
