@@ -5,11 +5,11 @@ module Temporal
     def_node_matcher(
       :travel_to,
       <<~PATTERN
-        (send nil? :travel_to ...)
+        (send nil? {:travel_to | :freeze_time | :travel} ...)
       PATTERN
     )
 
-    MSG = "Always use travel_to with a block"
+    MSG = "Always use a block when time travelling"
 
     def on_send(node)
       travel_to(node) do
