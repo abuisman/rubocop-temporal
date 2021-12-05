@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-temporal (0.1.0)
+    rubocop-temporal (1.0.0)
       rubocop (~> 1.8)
 
 GEM

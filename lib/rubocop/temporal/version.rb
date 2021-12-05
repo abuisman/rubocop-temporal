@@ -2,6 +2,6 @@
 
 module RuboCop
   module Temporal
-    VERSION = "0.1.0"
+    VERSION = "1.0.0"
   end
 end
